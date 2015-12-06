@@ -4,22 +4,23 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile '~/.gitignore_global'
 
-# Игнорирование конфига bundler
+# bundler
 /.bundle
 
-# Игнорирование дефолтной базы данных SQLite.
+# SQLite.
 /db/*.sqlite3
 /db/*.sqlite3-journal
 
-# Игнорирование всех логов и временных файлов.
+# TMP
 /log/*.log
 /tmp
 
-# Игнорирование прочих ненужных файлов.
+# Others
 database.yml
 doc/
 *.swp
 *~
+*.bat
 .project
 .DS_Store
 .idea
